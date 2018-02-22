@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'applicants/new'
+
+  get 'applicants/index'
+
+  get 'applicants/show'
+
+  get 'recruiters/new'
+
+  get 'recruiters/index'
+
+  get 'recruiters/show'
+
   resources :applications
   resources :jobs
   resources :companies
@@ -8,6 +20,7 @@ Rails.application.routes.draw do
     root to: "devise/sessions#new"
     get "sign_up", to: "devise/registrations#new"
     get "sign_in", to: "devise/sessions#new"
+    get "edit", to: "devise/registrations#edit"
     #root "devise/sessions#new"
     #get "sign_out", to: "devise/sessions#destroy"
   end

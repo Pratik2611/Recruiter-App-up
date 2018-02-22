@@ -13,13 +13,13 @@
   <% end %>
 
   <div class="field">
-    <%= f.check_box :Applicant %>
-    <%= f.label :Applicant %>
+     <%= f.label :user_type%>
+    <%= f.select :user_type,options_for_select([['Recruiter','Recruiter'],['Applicant','Applicant']],:multiple=>true) %>
   </div>
 
   <div class="field">
-    <%= f.check_box :Recruiter %>
-    <%= f.label :Recruiter %>
+    <%=f.label :phone%>
+    <%= f.text_field :phone%>
   </div>
 
   <div class="field">

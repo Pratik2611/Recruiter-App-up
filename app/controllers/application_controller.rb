@@ -6,9 +6,10 @@ class ApplicationController < ActionController::Base
     @user_t = current_user
     #@user_type.user_type.to_s = "Recruiter"
     if  @user_t.user_type.to_s == "Recruiter"
-      jobs_path
+        recruiters_show_path
+    elsif @user_t.user_type.to_s == "Applicant"
+      applicants_show_path
     else
-      homes_path
     end
   end
 
@@ -24,6 +25,6 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up,keys:[:name,:email,:user_type,:password,:password_confirmation,:remember_created_at,:phone])
     devise_parameter_sanitizer.permit(:sign_in,keys:[:email,:password,:remember_created_at])
-    #devise_parameter_sanitizer.permit(:edit)#,keys:[:email,:type,:password])
+    devise_parameter_sanitizer.permit(:account_update,keys: [:email,:type,:phone,:password,:user_type])
   end
   end
