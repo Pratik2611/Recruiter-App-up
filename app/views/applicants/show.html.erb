@@ -1,0 +1,21 @@
+<h1>Applicants#show</h1>
+<p>Find me in app/views/applicants/show.html.erb</p>
+<h2> Welcome..!!!.</h2>
+<div id="right">
+  <%= link_to 'Edit_Profile', edit_user_registration_path %>
+  <%= link_to 'Sign_out', destroy_user_session_path,method: :delete%>
+</div>
+</div>
+<br><br>
+<fieldset>
+  <legend> Account Details </legend>
+  <div>
+    <% @users = current_user %>
+    <p> Username :  <%= @users.name.to_s.upcase! %><br/> </p>
+    <p> Email Address :  <%= @users.email %><br/> </p>
+    <p> User_type :  <%= @users.user_type %><br/> </p>
+    <p> Contact :  <%= @users.phone %><br/> </p>
+  </div>
+
+</fieldset>
+

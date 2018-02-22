@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49ec900e-9a9d-407b-84b6-3538bc03b46d" name="Default" comment="total login page setup(foreign key for company_id done,foreign key setup in progress)!!">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/jobs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/jobs/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/sessions/new.html.erb" />
-      <change beforePath="$PROJECT_DIR$/bin/bundle" afterPath="$PROJECT_DIR$/bin/bundle" />
-      <change beforePath="$PROJECT_DIR$/bin/rails" afterPath="$PROJECT_DIR$/bin/rails" />
-      <change beforePath="$PROJECT_DIR$/bin/rake" afterPath="$PROJECT_DIR$/bin/rake" />
-      <change beforePath="$PROJECT_DIR$/bin/setup" afterPath="$PROJECT_DIR$/bin/setup" />
-      <change beforePath="$PROJECT_DIR$/bin/spring" afterPath="$PROJECT_DIR$/bin/spring" />
-      <change beforePath="$PROJECT_DIR$/bin/update" afterPath="$PROJECT_DIR$/bin/update" />
-      <change beforePath="$PROJECT_DIR$/bin/yarn" afterPath="$PROJECT_DIR$/bin/yarn" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/log/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/system/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/.keep" afterPath="" />
-    </list>
+    <list default="true" id="49ec900e-9a9d-407b-84b6-3538bc03b46d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +296,7 @@
       <updated>1518993217788</updated>
       <workItem from="1518993218939" duration="10671000" />
       <workItem from="1519095371183" duration="40115000" />
-      <workItem from="1519258013919" duration="7278000" />
+      <workItem from="1519258013919" duration="7349000" />
     </task>
     <task id="LOCAL-00001" summary="input-2">
       <created>1519103259458</created>
@@ -363,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519176641501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="going to add gem for seearch(foreign key for company_id done,foreign key setup in progress)!!">
+      <created>1519266369917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519266369917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58064000" />
+    <option name="totallyTimeSpent" value="58135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1213" y="157" width="2053" height="2174" extended-state="0" />
@@ -423,7 +393,8 @@
     <MESSAGE value="total login page setup!!" />
     <MESSAGE value="total login page setup(foreign key setup in progress)!!" />
     <MESSAGE value="total login page setup(foreign key for company_id done,foreign key setup in progress)!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="total login page setup(foreign key for company_id done,foreign key setup in progress)!!" />
+    <MESSAGE value="going to add gem for seearch(foreign key for company_id done,foreign key setup in progress)!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="going to add gem for seearch(foreign key for company_id done,foreign key setup in progress)!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
